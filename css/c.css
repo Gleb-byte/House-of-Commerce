@@ -1,0 +1,180 @@
+img {
+  width: 100%; !important;
+  max-width: 100%;
+    height: auto;
+}
+
+.sim-slider {
+
+  max-width: 40%;
+ margin-left: 30%;
+ margin-right: 30%;
+   padding: 5% 20;
+
+}
+
+/* General styles */
+.sim-slider {
+  position: relative;
+}
+
+.sim-slider-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+}
+
+.sim-slider-element {
+  width: 100%;
+  transition: opacity 1s ease-in;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+/* Navigation item styles */
+div.sim-slider-arrow-left,
+div.sim-slider-arrow-right {
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 4;
+}
+
+div.sim-slider-arrow-left {
+  left: 10px;
+  top: 45%;
+  display: block;
+    width: 9%;
+}
+
+div.sim-slider-arrow-right {
+  right: 10px;
+  top: 45%;
+  display: block;
+  width: 9%;
+
+}
+
+div.sim-slider-arrow-left:hover {
+  opacity: 1.0;
+}
+
+div.sim-slider-arrow-right:hover {
+  opacity: 1.0;
+}
+
+div.sim-slider-dots {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  text-align: center;
+}
+
+span.sim-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #BBB;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tx{
+  position: relative;
+  display: grid;
+  grid-template-columns: 33% 33%;
+margin-left: 25%;
+}
+
+
+.text{
+    position: relative;
+width: 100%;
+height: 100%;
+  text-align: left;
+font-size:1vw;
+}
+
+.RED{
+    position: relative;
+  text-align: center;
+  color: red;
+font-size:1vw;
+}
+.cart{
+    position: relative;
+  margin-top:20%;
+text-align: right;
+}
+.Pskov{
+  position: absolute;
+
+  width: 100%;
+      height: auto;
+
+      background-size: 100% 100%;
+
+}
+body{
+
+margin: 0;
+ padding: 0;
+
+}
+.namber{
+
+    position: relative;
+  display: grid;
+  grid-template-columns: 60% 60%;
+  width:50%;
+  border-top:3px solid #B9E3A4;
+  margin-left: 25%;
+}
+.pp{
+    position: relative;
+  width: 50%;
+font-size:1vw;
+}
+.im{
+    position: relative;
+  text-align: center;
+padding: 10%;
+  margin-top: 20px;
+    font-size:1vw;
+}
+.all{
+
+  width: 70%;
+  height: auto;
+  color: black;
+}
+.route{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10px 10px ;
+    font-size:1vw;
+}
+.SAP{
+  text-align: center;
+  font-size:1vw;
+
+}
+.route1{
+ margin-left: 30%;
+  display: grid;
+  grid-template-columns: 33% 33%;
+  padding: 10px 10px ;
+    font-size:1vw;
+}
